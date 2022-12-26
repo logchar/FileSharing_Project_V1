@@ -1,0 +1,6 @@
+<!--searchs/pages/home/choose/choose.wxml-->
+<view class="topTap">
+<view class="tap {{choosed==index ? 'active' : ''}}" wx:for="{{select}}" wx:key="index" bindtap="choose" data-info="{{index}}">{{item}}</view>
+</view>
+<view class="detail" wx:for="{{choosed == 1? departments : subjects}}" wx:key="index"
+data-info="{{item}}" bindtap="gotosearch">{{item}}</view>

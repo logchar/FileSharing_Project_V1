@@ -1,0 +1,4 @@
+<!--users/pages/user/mydownload/mydownload.wxml-->
+<view class="prevBox">
+  <preview wx:for="{{docData}}" wx:key="id" docData="{{item}}" data-info="{{item}}"></preview>
+</view>

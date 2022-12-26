@@ -1,0 +1,14 @@
+<!--searchs/pages/home/search/search.wxml-->
+<view class="topBox">
+  <view class="searchBox">
+    <image class="searchBoxIcon" src="/Resources/icon/svg/1.Element-search.svg" bindtap="searchInput"></image>
+    <view class="line"></view>
+    <input class="search" placeholder="请输入" bindinput="getInput" bindconfirm="searchInput"  value="{{inputData}}"/>
+  </view>
+  <view class="classify" bindtap="gotochoose">
+    <image class="classifyIcon" src="/Resources/icon/svg/classify.svg"></image>
+  </view>
+</view>
+<view class="historyBox">
+  <view class="history" wx:for="{{searchHistory}}" wx:key="item" data-info="{{item}}"  bindtouchstart="touchStart" bindtouchend="touchEnd">{{item}}</view>
+</view>

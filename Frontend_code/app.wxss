@@ -1,0 +1,23 @@
+/**app.wxss**/
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 200rpx 0;
+  box-sizing: border-box;
+} 
+
+preview{
+  display: inline-block;
+  position: relative;
+  width: 262rpx;
+  height: 354rpx;
+  background: #FFFFFF;
+  box-shadow: 0rpx 6rpx 12rpx 2rpx rgba(0, 0, 0, 0.16);
+  border-radius: 19rpx 19rpx 19rpx 19rpx;
+  opacity: 1;
+  border: 1rpx solid #707070;
+  margin: 15rpx 0rpx 15rpx 77rpx;
+}

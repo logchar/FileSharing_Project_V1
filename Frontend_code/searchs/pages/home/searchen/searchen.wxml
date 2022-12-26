@@ -1,0 +1,2 @@
+<!--searchs/pages/home/searchen/searchen.wxml-->
+<preview wx:for="{{docData}}" wx:key="id" docData="{{item}}" data-info="{{item}}"></preview>

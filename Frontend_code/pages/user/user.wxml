@@ -1,0 +1,35 @@
+<!--index.wxml-->
+<view class="container">
+  <!--用户的用户名和头像-->
+  <view class="user-data">
+    <view class="user-img">
+      <image class="img" src="{{userImg}}"></image>
+    </view>
+    <h1 class="user-name">{{userName}}</h1>
+  </view>
+  <!--我的收藏，下载等等四个按钮-->
+  <div class="user-options" id="user-options-one" bindtap="userCollections">
+    <view class="grey-shade-normal" hover-class="grey-shade-hover"></view>
+    <view class="user-collection">
+      <view class="user-collection-icon"></view>
+      <view class="user-collection-word">我的收藏</view>
+    </view>
+  </div>
+  <div class="user-options" id="user-options-two" bindtap="userDownloads">
+    <view class="grey-shade-normal" hover-class="grey-shade-hover"></view>
+    <view class="user-download-icon"></view>
+    <view class="user-download-word">我的下载</view>
+  </div>
+  <div class="user-options" id="user-options-three" bindtap="userUploads">
+    <view class="grey-shade-normal" hover-class="grey-shade-hover"></view>
+    <view class="user-upload-icon"></view>
+    <view class="user-upload-word">我的上传</view>
+  </div>
+  <div class="user-options" id="user-options-four" bindtap="userSelf">
+    <view class="grey-shade-normal" hover-class="grey-shade-hover"></view>
+    <view class="user-self-icon"></view>
+    <view class="user-self-word">个人信息</view>
+  </div>
+  <!--退出登录按钮-->
+  <view class="user-main-background"></view>
+</view>

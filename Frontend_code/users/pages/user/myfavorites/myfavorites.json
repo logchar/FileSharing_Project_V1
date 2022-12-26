@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "preview":"/component/preview/preview"
+  },
+  "navigationBarTitleText": "我的收藏"
+}

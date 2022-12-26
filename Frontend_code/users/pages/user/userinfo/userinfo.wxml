@@ -1,0 +1,30 @@
+<!--users/pages/user/userinfo/userinfo.wxml-->
+<view class="container">
+  <!--头像修改-->
+  <view class="profile" id="profile-photo">
+    <view class="text-name">头像</view>
+    <view class="profile-photo-preview"></view>
+    <!--点击响应区-->
+    <view class="arrow-reply" bindtap="replyPhoto"></view>
+    <view class="arrow"></view>
+  </view>
+  <!--分隔线-->
+  <view class="division" id="d1"></view>
+  <!--修改用户名-->
+  <view class="profile" id="profile-name">
+    <view class="text-name">姓名</view>
+    <view class="profile-photo-preview"></view>
+    <view class="arrow-reply" bindtap="replyName"></view>
+    <view class="arrow"></view>
+  </view>
+  <view class="division" id="d2"></view>
+  <!--修改联系方式-->
+  <view class="profile" id="profile-contact">
+    <view class="text-name">联系方式</view>
+    <view class="profile-photo-preview"></view>
+    <view class="arrow-reply" bindtap="replyContact"></view>
+    <view class="arrow"></view>
+  </view>
+  <view class="division" id="d3"></view>
+  <image class="background" src="/Resources/background/newSkill.svg"></image>
+</view>

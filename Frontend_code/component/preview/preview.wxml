@@ -1,0 +1,11 @@
+<!--component/preview/preview.wxml-->
+<view class="box" data-info="{{docData}}" bindtap="gotodetail">
+  <!--组件功能-->
+  <image class="img" src="{{imgRoad}}"></image>
+  <view class="name">{{docData.filename}}</view>
+  <!--条件渲染删除键-->
+  <button class="delete" type="warn" size="mini" wx:if="{{isShow}}" catchtap="deleteItem">删除</button>
+  <view class="department">{{docData.department}}</view>
+  <view class="subject">{{docData.subject}}</view>
+  <view class="download">{{"下载次数：" + docData.download_num}}</view>
+</view> 

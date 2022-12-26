@@ -1,0 +1,14 @@
+<!--pages/home/home.wxml-->
+
+<view class="searchContainer">
+  <view class="searchBox" bindtap="gotoSearch">
+    <image class="searchBoxIcon" src="/Resources/icon/svg/1.Element-search.svg"></image>
+  </view>
+  <view class="classify" bindtap="gotochoose">
+    <image class="classifyIcon" src="/Resources/icon/svg/classify.svg"></image>
+  </view>
+</view>
+<view class="prevBox">
+<preview wx:for="{{docData}}" wx:key="id" docData="{{item}}" data-info="{{item}}"></preview>
+</view>
+<image class="background" src="/Resources/background/hello.svg"></image>

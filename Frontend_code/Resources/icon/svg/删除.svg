@@ -1,0 +1,11 @@
+<svg id="组件_48_1" data-name="组件 48 – 1" xmlns="http://www.w3.org/2000/svg" width="31" height="18" viewBox="0 0 31 18">
+  <g id="_3.Button_Small-Em_Error" data-name="3.Button/Small-Em_Error">
+    <g id="_3.Button_Small-Em_Error-2" data-name="3.Button/Small-Em_Error">
+      <g id="button">
+        <rect id="按钮背景色" width="31" height="18" rx="5" fill="#f2f2f2"/>
+        <path id="文字颜色" d="M5,0H26a5,5,0,0,1,5,5v8a5,5,0,0,1-5,5H5a5,5,0,0,1-5-5V5A5,5,0,0,1,5,0Z" transform="translate(0 0)" fill="#fa5151"/>
+      </g>
+    </g>
+  </g>
+  <text id="删除" transform="translate(16 14)" fill="#fff" font-size="12" font-family="'\.PingFang-SC-Medium', '\.PingFang SC'" font-weight="500"><tspan x="-12" y="0">删除</tspan></text>
+</svg>

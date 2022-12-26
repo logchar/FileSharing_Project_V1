@@ -1,0 +1,60 @@
+/* component/preview/preview.wxss */
+.box {
+  width: 262rpx;
+  height: 354rpx;
+  padding: 31rpx;
+}
+
+.img {
+  position: relative;
+  width: 200rpx;
+  height: 200rpx;
+  background: #FFFFFF;
+  border-radius: 19rpx 19rpx 19rpx 19rpx;
+  opacity: 1;
+  border: 1rpx solid #707070;
+}
+
+.name {
+  position: relative;
+  width: 131rpx;
+  height: 46rpx;
+  font-size: 33rpx;
+  font-weight: 400;
+  color: #000000;
+  margin-top: 10rpx;
+  overflow: hidden;
+}
+
+.department {
+  position: relative;
+  margin-top: 2rpx;
+  height: 17rpx;
+  font-size: 20rpx;
+  font-weight: 400;
+  color: #07C160;
+}
+
+.subject {
+  position: relative;
+  height: 17rpx;
+  font-size: 20rpx;
+  font-weight: 400;
+  color: #07C160;
+  margin-top: 10rpx;
+}
+
+.download {
+  position: relative;
+  margin-left: 46rpx;
+  margin-top: -17rpx;
+  height: 17rpx;
+  font-size: 20rpx;
+  font-weight: 400;
+  color: #07C160;
+}
+.delete{
+  position: absolute;
+  right: 20rpx;
+  top: 240rpx;
+}

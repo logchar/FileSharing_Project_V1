@@ -1,0 +1,7 @@
+<!--users/pages/user/myupload/myupload.wxml-->
+<!--users/pages/user/mydownload/mydownload.wxml-->
+<view class="prevBox">
+  <!--组件-->
+  <preview wx:for="{{docData}}" wx:key="id" docData="{{item}}" data-info="{{item}}" isShow="true" curPage="myUpload" bind:deleted="deleted"></preview>
+  <image src="/Resources/background/income.svg" class="background"></image>
+</view>

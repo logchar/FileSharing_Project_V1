@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="202" height="58" viewBox="0 0 202 58">
+  <defs>
+    <filter id="按钮背景色" x="0" y="0" width="202" height="58" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="组件_86_1" data-name="组件 86 – 1" transform="translate(9 6)">
+    <g id="_3.Button_Big-Em_Green" data-name="3.Button/Big-Em_Green">
+      <g id="_3.Button_Big-Em_Green-2" data-name="3.Button/Big-Em_Green">
+        <g id="Group_2" data-name="Group 2" transform="translate(0 0)">
+          <g transform="matrix(1, 0, 0, 1, -9, -6)" filter="url(#按钮背景色)">
+            <rect id="按钮背景色-2" data-name="按钮背景色" width="184" height="40" rx="4" transform="translate(9 6)" fill="#fa6262"/>
+          </g>
+          <path id="文字颜色" d="M10,0H174a10,10,0,0,1,10,10V30a10,10,0,0,1-10,10H10A10,10,0,0,1,0,30V10A10,10,0,0,1,10,0Z" transform="translate(0 0)" fill="#fa6262"/>
+        </g>
+      </g>
+    </g>
+    <text id="退出登录" transform="translate(91 26)" fill="#fff" font-size="17" font-family="'\.PingFang-SC-Medium', '\.PingFang SC'" font-weight="500"><tspan x="-34" y="0">退出登录</tspan></text>
+  </g>
+</svg>

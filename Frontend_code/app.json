@@ -1,0 +1,78 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/upload/upload",
+    "pages/user/user",
+    "pages/detail/detail"
+  ],
+  "preloadRule": {
+    "pages/user/user": {
+      "packages": [
+        "users"
+      ],
+      "network": "all"
+    },
+    "pages/home/home": {
+      "packages": [
+        "searchs"
+      ],
+      "network": "all"
+    }
+  },
+  "subPackages": [
+    {
+      "root": "users",
+      "name": "users",
+      "pages": [
+        "pages/user/mydownload/mydownload",
+        "pages/user/myfavorites/myfavorites",
+        "pages/user/myupload/myupload",
+        "pages/user/userinfo/userinfo"
+      ]
+    },
+    {
+      "root": "searchs",
+      "name": "searchs",
+      "pages": [
+        "pages/home/choose/choose",
+        "pages/home/search/search",
+        "pages/home/searchen/searchen"
+      ]
+    }
+  ],
+  "window": {
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#EDEDED",
+    "navigationBarTitleText": "e珈文库",
+    "navigationBarTextStyle": "black",
+    "enablePullDownRefresh": false,
+    "backgroundColor": "#efefef"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "主页",
+        "iconPath": "/Resources/icon/png/首页.png",
+        "selectedIconPath": "/Resources/icon/png/首页-选中.png"
+      },
+      {
+        "pagePath": "pages/upload/upload",
+        "text": "上传",
+        "iconPath": "/Resources/icon/png/云上传.png",
+        "selectedIconPath": "/Resources/icon/png/云上传-选中.png"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "text": "个人",
+        "iconPath": "/Resources/icon/png/个人.png",
+        "selectedIconPath": "/Resources/icon/png/个人-选中.png"
+      }
+    ]
+  },
+  "usingComponents": {
+    "preview": "/component/preview/preview"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

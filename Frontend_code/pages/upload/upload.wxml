@@ -1,0 +1,44 @@
+<!--pages/upload/upload.wxml-->
+<view class="container">
+  <view class="res-name">
+    <view class="res-name-title">资料名</view>
+    <div class="res-devision">|</div>
+    <input bindinput="getResName" class="res-name-input" type="text" placeholder="有趣的名字和有趣的灵魂"/>
+  </view>
+  <view class="res-intro">
+    <view class="res-intro-title">详细介绍</view>
+    <div class="res-division">|</div>
+    <textarea bindinput="getResDetail" class="res-intro-input" type="text" placeholder="简明扼要一些更好哦"></textarea>
+  </view>
+  <view class="res-file">
+    <view class="res-file-title">上传文件</view>
+    <view class="res-file-touch" bindtap="getFile">
+      <image class="res-file-pic" src="{{uploadImgSrc}}" ></image>
+    </view>
+  </view>
+  <view class="res-collage">
+    <view class="res-collage-title">学院/学科</view>
+    <div class="res-devision">|</div>
+    <!--多项选择器-->
+    <picker mode="multiSelector" range="{{resChoices}}" class="res-collage-picker" range-key="{{'name'}}" bindcolumnchange="bindChange">{{collageChosen}} {{professionChosen}}</picker>
+  </view>
+  <!-- <view class="res-wx">
+    <view class="res-wx-title">联系方式一(选填)</view>
+    <view class="res-division">|</view>
+    <input class="res-wx-input" type="text" placeholder="微信（选填）" value="{{wechat}}"/>
+  </view>
+  <view class="res-qq">
+    <view class="res-qq-title">联系方式二(选填)</view>
+    <view class="res-division">|</view>
+    <input class="res-qq-input" type="text" placeholder="QQ（选填）" value="{{qq}}"/>
+  </view> -->
+  <button type="primary" class="res-submit" bindtap="resSubmit">发布</button>
+  <image class="background" src="/Resources/background/perfect.svg"></image>
+</view>
+<view class="loading" wx:if="{{isloading}}">
+<view class="progress">
+<view class="progress_bar">
+<view class="loading_bar" style="width: {{upload_progress}};"></view>
+</view>
+</view>
+</view>

@@ -1,0 +1,94 @@
+/* users/pages/user/userinfo/userinfo.wxss */
+.profile{
+  position: absolute;
+  width: 750rpx;
+  height: 154rpx;
+}
+#profile-photo{
+  top: 0rpx;
+}
+.text-name{
+  position: absolute;
+  left: 62rpx;
+  top: 55rpx;
+}
+.division{
+  width: 750rpx;
+  height: 8px;
+  background: #F2F2F2;
+  border-radius: 0px 0px 0px 0px;
+  opacity: 1; 
+  position: absolute;
+}
+#d1{
+  top: 154rpx;
+}
+#d2{
+  top: 324rpx;
+}
+#d3{
+  top: 494rpx;
+}
+.arrow{
+  width: 10px;
+  height: 10px;
+  border-top: 2px solid #999;
+  border-right: 2px solid #999;
+  transform: rotate(45deg);
+  position: absolute;
+  top: 65rpx;
+  right: 62rpx;
+}
+#profile-name{
+  top: 170rpx;
+}
+#profile-contact{
+  top: 339rpx;
+}
+.arrow-reply{
+  width: 62rpx;
+  height: 108rpx;
+  background: #FFFFFF;
+  border-radius: 0px 0px 0px 0px;
+  opacity: 0;
+  z-index: 1;
+  position: absolute;
+  left: 647rpx; 
+  top: 24rpx;
+}
+.input-name{
+  width: 550rpx;
+  height: 350rpx;
+  border-radius: 30rpx;
+  background-color: white;
+  z-index: 3;
+  border-style: solid;
+  border-width: 1px;
+  position: absolute;
+  top: 239rpx;
+  box-shadow: 0px 3px 6px 1px rgba(0,0,0,0.16);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.shadow{
+  position: absolute;
+  width: 750rpx;
+  height: 2000rpx;
+  top: 0rpx;
+  background-color: black;
+  z-index: 2;
+  opacity: 0.2;
+}
+.input-area{
+  width: 500rpx;
+  height: 100rpx;
+  margin: 30rpx;
+}
+.background{
+  height: 750rpx;
+  position: absolute;
+  bottom: 0rpx;
+  z-index: -99;
+}

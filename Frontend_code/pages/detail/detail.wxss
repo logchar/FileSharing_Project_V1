@@ -1,0 +1,148 @@
+/* pages/detail/detail.wxss */
+.divide {
+  width: 750rpx;
+  border: 1rpx solid #707070;
+  background-color: #707070;
+  position: relative;
+  margin-top: 31rpx;
+}
+
+.img {
+  position: relative;
+  margin-top: 29rpx;
+  margin-left: 213rpx;
+  width: 323rpx;
+  height: 431rpx;
+  background: #FFFFFF;
+  border-radius: 0rpx 0rpx 0rpx 0rpx;
+  opacity: 1;
+  border: 2rpx solid #707070;
+}
+
+.name {
+  position: relative;
+  margin-top: 31rpx;
+  margin-left: 62rpx;
+  height: 58rpx;
+  font-size: 42rpx;
+  font-weight: 400;
+  color: #000000;
+}
+
+.download {
+  position: absolute;
+  left: 30rpx;
+  border-radius: 19rpx 19rpx 19rpx 19rpx;
+  opacity: 1;
+  display: inline-block;
+  justify-content: center;
+  margin-top: 62rpx;
+}
+
+.connect {
+  position: absolute;
+  right: 30rpx;
+  border-radius: 19rpx 19rpx 19rpx 19rpx;
+  opacity: 1;
+  display: inline-block;
+  justify-content: center;
+  margin-top: 62rpx;
+}
+
+.department,
+.subject,
+.size {
+  height: 46rpx;
+  font-size: 33rpx;
+  font-weight: 400;
+  color: #B2B2B2;
+  position: relative;
+  margin-left: 62rpx;
+  margin-top: 19rpx;
+  display: inline-block;
+}
+
+.readme {
+  width: 462rpx;
+  font-size: 33rpx;
+  font-weight: 400;
+  color: #000000;
+  position: relative;
+  margin-left: 62rpx;
+  margin-top: 53rpx;
+}
+
+.auth {
+  height: 77rpx;
+  position: relative;
+  margin-top: 31rpx;
+  margin-left: 62rpx;
+}
+
+.star {
+  width: 64rpx;
+  height: 62rpx;
+  position: absolute;
+  top: 521rpx;
+  right: 58rpx;
+}
+
+.auth_img {
+  position: relative;
+  width: 77rpx;
+  height: 77rpx;
+  background: #FFFFFF;
+  opacity: 1;
+  border: 2rpx solid #707070;
+  border-radius: 50%;
+}
+
+.auth_name {
+  position: fixed;
+  display: inline-block;
+  height: 38rpx;
+  font-size: 27rpx;
+  font-weight: 400;
+  color: #000000;
+  margin-left: 15rpx;
+}
+
+.progress {
+  width: 690rpx;
+  height: 79rpx;
+  background: #FFFFFF;
+  border-radius: 19rpx 19rpx 19rpx 19rpx;
+  opacity: 1;
+  border: 2rpx solid #707070;
+  position: fixed;
+  top: 29rpx;
+  left: 29rpx;
+}
+
+.progress_bar {
+  width: 630rpx;
+  height: 19rpx;
+  background: #E5E5E5;
+  border-radius: 10rpx 10rpx 10rpx 10rpx;
+  opacity: 1;
+  position: relative;
+  top:33rpx;
+  left: 31rpx;
+}
+
+.loading_bar {
+  height: 19rpx;
+  background: #10C366;
+  border-radius: 10rpx 10rpx 10rpx 10rpx;
+  opacity: 1;
+}
+
+.loading{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 750rpx;
+  height: 1623rpx;
+  background-color: #18181888;
+  z-index: 99;
+}

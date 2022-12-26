@@ -1,0 +1,25 @@
+<!--pages/detail/detail.wxml-->
+<image class="img" src="{{imgRoad}}" />
+<view class="divide"></view>
+<view class="name">{{docData.filename}}</view>
+<image class="star" src="{{isfav ? '/Resources/icon/svg/star_fav.svg' : '/Resources/icon/svg/star_unfav.svg'}}" bindtap="changeFav"></image>
+<view class="department">{{docData.department}}</view>
+<view class="subject">{{docData.subject}}</view>
+<view class="size">{{docData.size}}</view>
+<view class="readme">{{docData.readme}}</view>
+
+<view class="auth">
+  <image class="auth_img" src="{{'https://api.resource.temp.ziqiang.net.cn/'+auth_detail.avatar}}"></image>
+  <text class="auth_name">{{"作者:" + auth_detail.nickname}}</text>
+</view>
+<!-- 时间，作者头像 -->
+<!--内联样式可以修改button长度-->
+<button class="download" type="primary" bindtap="getdownload" style="width: 320rpx;">下载</button>
+<button class="connect" type="primary" plain="true" bindtap="getconnect" style="width: 320rpx;">联系</button>
+<view class="loading" wx:if="{{isloading}}">
+<view class="progress">
+<view class="progress_bar">
+<view class="loading_bar" style="width: {{download_progress}};"></view>
+</view>
+</view>
+</view>

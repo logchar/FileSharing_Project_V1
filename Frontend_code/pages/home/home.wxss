@@ -1,0 +1,64 @@
+/* pages/home/home.wxss */
+.searchContainer {
+  position: fixed;
+  width: 750rpx;
+  height: 92rpx;
+  border-radius: 0px 0px 20rpx 20rpx;
+  opacity: 1;
+  border: 2rpx solid #707070;
+  z-index: 100;
+  background-color: #FFFFFF;
+  box-shadow: 0px 6rpx 12rpx 2rpx rgba(0,0,0,0.16);
+}
+
+.searchBox {
+  position: fixed;
+  width: 523rpx;
+  height: 62rpx;
+  background: #FFFFFF;
+  border-radius: 10rpx 10rpx 10rpx 10rpx;
+  opacity: 1;
+  border: 2rpx solid #707070;
+  top: 14rpx;
+  left: 40rpx;
+}
+
+.searchBoxIcon {
+  position: fixed;
+  width: 56rpx;
+  height: 40rpx;
+  opacity: 1;
+  top: 26rpx;
+  left: 56rpx;
+}
+
+.classify {
+  position: fixed;
+  width: 79rpx;
+  height: 75rpx;
+  border-radius: 0px 0px 0px 0px;
+  opacity: 1;
+  top: 10rpx;
+  right: 40rpx;
+}
+
+.classifyIcon {
+  position: fixed;
+  width: 76rpx;
+  height: 76rpx;
+  opacity: 1;
+  top: 14rpx;
+}
+
+.prevBox{
+  position: absolute;
+  top: 92rpx
+}
+
+.background{
+  position: fixed;
+  bottom: 0;
+  width: 750rpx;
+  height: 696rpx;
+  z-index: -99;
+}

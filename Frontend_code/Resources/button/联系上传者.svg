@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="161" height="51" viewBox="0 0 161 51">
+  <defs>
+    <filter id="按钮背景色" x="0" y="0" width="161" height="51" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="_3.Button_Small-Em_Green" data-name="3.Button/Small-Em_Green" transform="translate(9.5 6.5)">
+    <g id="_3.Button_Small-Em_Green-2" data-name="3.Button/Small-Em_Green">
+      <g id="button">
+        <g transform="matrix(1, 0, 0, 1, -9.5, -6.5)" filter="url(#按钮背景色)">
+          <rect id="按钮背景色-2" data-name="按钮背景色" width="142" height="32" rx="10" transform="translate(9.5 6.5)" fill="#07c160" stroke="#07c160" stroke-width="1"/>
+        </g>
+        <path id="文字颜色" d="M10,0H132a10,10,0,0,1,10,10V22a10,10,0,0,1-10,10H10A10,10,0,0,1,0,22V10A10,10,0,0,1,10,0Z" transform="translate(0 0)" fill="#fff" stroke="#07c160" stroke-width="1"/>
+      </g>
+    </g>
+  </g>
+</svg>
